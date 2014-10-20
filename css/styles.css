@@ -19,7 +19,7 @@
 
 /* =Typography
 --------------------------------------------------------------------------------------------------------*/
-body { font: 18px 'Ruda', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight:400; color:#b8b8b8; background:url(../images/bg-html.png) no-repeat fixed center 10px #eee; letter-spacing:-1px; }
+body { font: 18px 'Ruda', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight:400; color:#b8b8b8; background:url(../images/bg-html.jpg) no-repeat fixed center 10px #eee; letter-spacing:-1px; }
 strong { font-weight:bold; }
 a, a > * {-webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
 p { line-height:1.5; font-size:24px; letter-spacing:-1px }
@@ -238,3 +238,11 @@ ul#nav-lang li a:hover, ul#nav-lang li a.selected { color:#595755;}
 
 
 
+/* =Landon CSS
+--------------------------------------------------------------------------------------------------------*/
+@font-face {
+    font-family: sofachrome;
+    src: url(sofachrome_rg.ttf);
+}
+/* End Backtotop
+--------------------------------------------------------------------------------------------------------*/
