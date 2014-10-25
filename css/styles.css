@@ -157,7 +157,7 @@ span.blockquote { font-family:Georgia, "Times New Roman", Times, serif; font-sty
 
 /* =Lists
 --------------------------------------------------------------------------------------------------------*/
-ul.list { position:absolute; padding:0 30px 21px 30px; bottom:0 }
+ul.list { position:absolute; padding:0 30px 21px 30px; bottom:22px }
 ul.list li { line-height:1.5; font-size:20px; letter-spacing:-1px; width:auto; padding-left:28px; }
 ul.check li { background:url(../images/bg-check.png) no-repeat 1px 9px; background-size:13px 11px; }
 /* =End Lists
