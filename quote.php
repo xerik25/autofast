@@ -9,8 +9,7 @@ if(!$_POST) exit;
 function tommus_email_validate($email) { return filter_var($email, FILTER_VALIDATE_EMAIL) && preg_match('/@.+\./', $email); }
 
 
-$name = $_POST['name']; $email = $_POST['email']; $comments = $_POST['comments'];
-$origincity = $_POST['origincity'];
+$name = $_POST['name']; $email = $_POST['email']; $comments = $_POST['comments']; $origincity = $_POST['origincity'];
 $originstate = $_POST['originstate'];
 $originzip = $_POST['originzip'];
 $vehiclemake = $_POST['vehiclemake'];
@@ -18,6 +17,8 @@ $vehiclemodel = $_POST['vehiclemodel'];
 $vehicleyear = $_POST['vehicleyear'];
 $test = $_POST['test'];
 
+$file = 'log.txt';
+file_put_contents($file, $name);
 
 
 if(trim($name) == '') {
