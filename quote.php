@@ -18,7 +18,7 @@ $vehicleyear = $_POST['vehicleyear'];
 $test = $_POST['test'];
 
 $file = 'log.txt';
-file_put_contents($file, $name);
+file_put_contents($file, print_r($_POST,true));
 
 
 if(trim($name) == '') {
