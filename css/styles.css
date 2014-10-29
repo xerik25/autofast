@@ -19,13 +19,14 @@
 
 /* =Typography
 --------------------------------------------------------------------------------------------------------*/
-body { font: 18px 'Ruda', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight:400; color:#b8b8b8; background:url(../images/bg-html.jpg) no-repeat fixed center 10px #eee; letter-spacing:-1px; }
+/*body { font: 18px 'Ruda', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight:400; color:#b8b8b8; background:url(../images/bg-html.jpg) repeat fixed; letter-spacing:-1px; }*/
+body { font: 16px 'sofachrome', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight:400; color:#b8b8b8; background:url(../images/bg-html.jpg) repeat fixed; letter-spacing:-1px; }
 strong { font-weight:bold; }
 a, a > * {-webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
-p { line-height:1.5; font-size:24px; letter-spacing:-1px }
+p { line-height:1.5; font-size:18px; letter-spacing:-1px }
 .col2-3 p { padding:14px 50px 30px 40px; position:absolute; bottom:0; }
 .col2-3.single-post p { padding:20px 50px 0px 40px; position:relative; }
-.col1-3 p { font-size:20px; padding:0px 30px 21px 30px; position:absolute; bottom:0; }
+.col1-3 p { font-size:16px; padding:0px 30px 21px 30px; position:absolute; bottom:0; }
 .col1-3.colored p, .col1-3 .infos p {font-size:18px; text-align:center; padding:16px 60px 0px 60px; position:relative; color:#fff; }
 .col1-3 .infos p {color:#595755; font-weight:bold; }
 p.blockquote { font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; font-weight:normal; clear:both }
@@ -50,10 +51,10 @@ a:hover { text-decoration:none; color:#f97220; }
 h1#logo { display:block; margin:0 auto; margin-top:43px; }
 a h1#logo { display:inline-block; background:url(../images/bg-logo.png) no-repeat top center; background-size:192px 140px; text-decoration:none; width:192px; height:140px; text-indent:-9999px; }
 h2, h3, h4 { line-height:1.5; letter-spacing:-2px; color:#fff; }
-h2 { font-size:48px; padding:38px 40px 19px 40px; }
+h2 { font-size:36px; padding:38px 40px 19px 40px; }
 .col1-3 h2 { padding:17px 20px 0px 20px; font-size:28px; text-transform:none }
 .col2-3.single-post h2 { padding:43px 40px 24px 40px; line-height:62px; }
-h3 { font-size:28px; padding:47px 30px 21px 30px; letter-spacing:-1px; line-height:36px; }
+h3 { font-size:28px; padding:12px 30px 12px 30px; letter-spacing:-1px; line-height:36px; }
 h3 a {color:#fff; text-decoration:none}
 h3 a:hover {color:#fff; text-decoration:underline}
 h3.blockquote { font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; font-weight:normal; font-size:26px; clear:both }
@@ -158,7 +159,7 @@ span.blockquote { font-family:Georgia, "Times New Roman", Times, serif; font-sty
 /* =Lists
 --------------------------------------------------------------------------------------------------------*/
 ul.list { position:absolute; padding:0 30px 21px 30px; bottom:22px }
-ul.list li { line-height:1.5; font-size:20px; letter-spacing:-1px; width:auto; padding-left:28px; }
+ul.list li { line-height:1.5; font-size:14px; letter-spacing:-1px; width:auto; padding-left:28px; }
 ul.check li { background:url(../images/bg-check.png) no-repeat 1px 9px; background-size:13px 11px; }
 /* =End Lists
 --------------------------------------------------------------------------------------------------------*/
@@ -211,7 +212,7 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 #options {  text-align:left; margin-top:0px; }
 #options ul { margin: 0; list-style: none; display:inline-block; bottom:22px; position:absolute; }
 #options li { float: none;  }
-#options li a { color:#a5a5a5; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:13px; font-weight:normal; letter-spacing:0px; text-decoration:none; /*text-transform:uppercase;*/ display:inline-block; padding:3px 30px;  margin:0px; }
+#options li a { color:#a5a5a5; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:18px; font-weight:normal; letter-spacing:0px; text-decoration:none; /*text-transform:uppercase;*/ display:inline-block; padding:3px 30px;  margin:0px; }
 #options li a:hover, #options li a.selected { color:#595755;}
 
 ul#nav-lang {position:absolute; bottom:22px; right:0px; text-align:right; }
@@ -242,7 +243,7 @@ ul#nav-lang li a:hover, ul#nav-lang li a.selected { color:#595755;}
 --------------------------------------------------------------------------------------------------------*/
 @font-face {
     font-family: sofachrome;
-    src: url(sofachrome_rg.ttf);
+    src: url(../font/sofachrome_rg.ttf) format('truetype');
 }
 /* End Backtotop
 --------------------------------------------------------------------------------------------------------*/
