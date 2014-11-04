@@ -44,39 +44,39 @@
 <div class="container">
   <div id="container" class="clearfix dedicated-page">
     <div class="element  clearfix col2-3 borders">
-      <div class="images"> <img src="/images/logos/autofast_logo4.png" alt="" /> </div>
+      <div class="images"> <img class="biglogo" src="/images/logos/autofast_logo4.png" alt="" /> </div>
     </div>
     <div class="element single-post clearfix col2-3">
-      <h2>Fill out your quote here!</h2>
+      <h2 class="chrome_bg">Fill out your quote here!</h2>
       <div id="contact">
         <div id="message"></div>
         <form method="post" action="quote.php" name="contactform" id="contactform" autocomplete="off">
           <fieldset>
           <div class="alignleft">
             <label for="name"><span class="required">Name</span></label>
-            <input name="name" type="text" id="name" size="30" title="Name" />
+            <input class="chrome_bg" name="name" type="text" id="name2" size="30" title="Name" />
             <label for="phone"><span class="required">Phone</span></label>
-            <input name="phone" type="text" id="phone" size="30" title="Phone *" class="third" />
+            <input class="chrome_bg" name="phone" type="text" id="phone" size="30" title="Phone *" class="third" />
             <label for="email"><span class="required">Email</span></label>
-            <input name="email" type="text" id="email" size="30" title="Email" />
+            <input class="chrome_bg" name="email" type="text" id="email" size="30" title="Email" />
             <label for="origincity"><span class="required">Origin City</span></label>
-            <input name="origincity" type="text" id="origincity" size="30" title="Origin City" />
+            <input class="chrome_bg" name="origincity" type="text" id="origincity" size="30" title="Origin City" />
             <label for="originstate"><span class="required">Origin State</span></label>
-            <input name="originstate" type="text" id="originstate" size="30" title="Origin State" class="third" />
+            <input class="chrome_bg" name="originstate" type="text" id="originstate" size="30" title="Origin State" class="third" />
             <label for="originzip"><span class="required">Origin Zip</span></label>
-            <input name="originzip" type="text" id="originzip" size="30" title="Origin Zip" />
+            <input class="chrome_bg" name="originzip" type="text" id="originzip" size="30" title="Origin Zip" />
           </div>
           <div class="alignright">
             <label for="vehiclemake"><span class="required">Vehicle Make</span></label>
-            <input name="vehiclemake" type="text" id="vehiclemake" size="30" title="Vehicle Make" />
+            <input class="chrome_bg" name="vehiclemake" type="text" id="vehiclemake" size="30" title="Vehicle Make" />
             <label for="vehiclemodel"><span class="required">Vehicle Model</span></label>
-            <input name="vehiclemodel" type="text" id="vehiclemodel" size="30" title="Vehicle Model" />
+            <input class="chrome_bg" name="vehiclemodel" type="text" id="vehiclemodel" size="30" title="Vehicle Model" />
             <label for="vehicleyear"><span class="required">Vehicle Year</span></label>
-            <input name="vehicleyear" type="text" id="vehicleyear" size="30" title="Vehicle Year" />
+            <input class="chrome_bg" name="vehicleyear" type="text" id="vehicleyear" size="30" title="Vehicle Year" />
             <label for="test"><span class="required">test</span></label>
-            <input name="test" type="text" id="test" size="30" title="test" class="third" />
+            <input class="chrome_bg" name="test" type="text" id="test" size="30" title="test" class="third" />
           <label for="comments"><span class="required">Comments</span></label>
-          <textarea name="comments" cols="40" rows="3" id="comments" title="Comment"></textarea>
+          <textarea class="chrome_bg" name="comments" cols="40" rows="3" id="comments" title="Comment"></textarea>
           <div>
           <input type="submit" class="submit" id="submit" value="Submit" onFocus="if(this.blur)this.blur()" />
           </div>
@@ -108,11 +108,19 @@
       </div>
 </div>
 <!-- end header -->
-<footer class="centered">© 2013, Eagle Logistics Ltd.
+<footer class="chrome_bg centered">© AutoFast Transport LLC.
   <ul class="social clearfix">
     <li class="facebook"><a href="#" onClick="return false">Visit our facebook Account</a></li>
-    <li class="tweat"><a href="#" onClick="return false">Visit our twitter Account</a></li>
+    <!-- <li class="dribble"><a href="#" onClick="return false">Visit our dribble Account</a></li> -->
+    <!-- <li class="vimeo"><a href="#" onClick="return false">Visit our vimeo Account</a></li> -->
+    <li class="google"><a href="#" onClick="return false">Visit our googleplus Account</a></li>
   </ul>
 </footer>
+<!-- BACK TO TOP BUTTON -->
+<div id="backtotop">
+  <ul>
+    <li><a id="toTop" href="#" onClick="return false">Back to Top</a></li>
+  </ul>
+</div>
 </body>
 </html>

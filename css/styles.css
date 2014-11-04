@@ -248,5 +248,8 @@ ul#nav-lang li a:hover, ul#nav-lang li a.selected { color:#595755;}
 .chrome_bg {
 	background:url(../images/diamond_plate.png);
 }
+.biglogo {
+	margin-top: 15px;
+}
 /* End Backtotop
 --------------------------------------------------------------------------------------------------------*/

@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
 								
-	jQuery('#menu-container').hide();
+	// jQuery('#menu-container').hide();
 	
 	
 	jQuery('nav').mouseover(function() {
