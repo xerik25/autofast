@@ -8,7 +8,7 @@
 /* Form style */
 
 #contact label { display: none; float: none; height:0px; }
-input, textarea, select { width:240px; height:26px; padding:24px 30px 23px 30px; font: 18px 'Ruda', 'Helvetica Neue', Arial, Helvetica, sans-serif; color:#b8b8b8; border:0; border-bottom:1px solid #4d4b4a; border-top:1px solid #63615f; background:#595755; letter-spacing:-1px; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; float:none; display:block;}
+input, textarea, select { width:240px; height:26px; padding:24px 30px 23px 30px; font: 18px 'Ruda', 'Helvetica Neue', Arial, Helvetica, sans-serif; color:#F3DE3B; border:0; border-bottom:1px solid #4d4b4a; border-top:1px solid #63615f; background:#595755; letter-spacing:-1px; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; float:none; display:block;}
 #contact input.third { margin: 0px 0px 0px 0 !important; }
 #contact input#name {border-top:0px; }
 #contact textarea { margin-bottom:0px; padding-top:26px; margin-right:0px !important; width:155px; border:0px; border-right:1px solid #47484b;  border-top:1px solid #63615f;}

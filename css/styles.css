@@ -26,16 +26,16 @@ a, a > * {-webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0
 p { line-height:1.5; font-size:18px; letter-spacing:-1px }
 .col2-3 p { padding:14px 50px 30px 40px; position:absolute; bottom:0; }
 .col2-3.single-post p { padding:20px 50px 0px 40px; position:relative; }
-.col1-3 p { font-size:16px; padding:0px 30px 21px 30px; position:absolute; bottom:0; }
+.col1-3 p { font-size:15px; padding:0px 30px 21px 30px; position:absolute; bottom:0; }
 .col1-3.colored p, .col1-3 .infos p {font-size:18px; text-align:center; padding:16px 60px 0px 60px; position:relative; color:#fff; }
 .col1-3 .infos p {color:#595755; font-weight:bold; }
 p.blockquote { font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; font-weight:normal; clear:both }
 .blockquote span, .col1-3.colored p span, .col1-3 .infos p span {font: 12px 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; text-transform:uppercase; letter-spacing:2px; color:#999; }
 .col1-3 .infos p span {color:#595755; font-size:11px;}
 .col1-1 p.blockquote { padding:20px 80px 0px 80px; }
-p span {color:#f97220; }
+p span {color:#F3DE3B; }
 .col1-3.colored p span {color:#fff; }
-a { color:#f97220; text-decoration:underline; }
+a { color:#F3DE3B; text-decoration:underline; }
 .col1-3.colored a {color:#fff; }
 .col1-3 .infos p a {color:#595755; text-decoration:underline; }
 a:hover { text-decoration:none; color:#f97220; }
@@ -54,7 +54,7 @@ h2, h3, h4 { line-height:1.5; letter-spacing:-2px; color:#fff; }
 h2 { font-size:36px; padding:38px 40px 19px 40px; }
 .col1-3 h2 { padding:17px 20px 0px 20px; font-size:28px; text-transform:none }
 .col2-3.single-post h2 { padding:43px 40px 24px 40px; line-height:62px; }
-h3 { font-size:28px; padding:12px 30px 12px 30px; letter-spacing:-1px; line-height:36px; }
+h3 { font-size:24px; padding:12px 30px 12px 30px; letter-spacing:-1px; line-height:36px; }
 h3 a {color:#fff; text-decoration:none}
 h3 a:hover {color:#fff; text-decoration:underline}
 h3.blockquote { font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; font-weight:normal; font-size:26px; clear:both }
@@ -227,7 +227,7 @@ ul#nav-lang li a:hover, ul#nav-lang li a.selected { color:#595755;}
 --------------------------------------------------------------------------------------------------------*/
 #backtotop { height:auto; position:fixed; right:30px; bottom:30px; display:none; z-index:30; }
 #backtotop ul { padding:15px 0px; }
-#backtotop ul li a { background:url(../images/bg-up.png) center 48% no-repeat #f97220; background-size:22px 15px; display:block; width:50px; height:50px; float:right; right:10px; text-indent:-9000px; -webkit-box-shadow:0 0 30px rgba(0, 0, 0, 0.1); -moz-box-shadow:0 0 30px rgba(0, 0, 0, 0.1); box-shadow:0 0 30px rgba(0, 0, 0, 0.1);}
+#backtotop ul li a { background:url(../images/bg-up.png) center 48% no-repeat #F3DE3B; background-size:22px 15px; display:block; width:50px; height:50px; float:right; right:10px; text-indent:-9000px; -webkit-box-shadow:0 0 30px rgba(0, 0, 0, 0.1); -moz-box-shadow:0 0 30px rgba(0, 0, 0, 0.1); box-shadow:0 0 30px rgba(0, 0, 0, 0.1);}
 #backtotop ul li a:hover { -webkit-box-shadow:0 0 30px rgba(0, 0, 0, 0); -moz-box-shadow:0 0 30px rgba(0, 0, 0, 0); box-shadow:0 0 30px rgba(0, 0, 0, 0); }
 /* End Backtotop
 --------------------------------------------------------------------------------------------------------*/
@@ -244,6 +244,9 @@ ul#nav-lang li a:hover, ul#nav-lang li a.selected { color:#595755;}
 @font-face {
     font-family: sofachrome;
     src: url(../font/sofachrome_rg.ttf) format('truetype');
+}
+.chrome_bg {
+	background:url(../images/diamond_plate.png);
 }
 /* End Backtotop
 --------------------------------------------------------------------------------------------------------*/
