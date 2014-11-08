@@ -1,7 +1,14 @@
 Array
 (
-    [name] => name
+    [name] => Landon
+    [phone] => 12341234
     [email] => email@email.com
-    [phone] => test
-    [comments] => test
+    [origincity] => wichita
+    [originstate] => ks
+    [originzip] => 67203
+    [vehiclemake] => caddy
+    [vehiclemodel] => escalade
+    [vehicleyear] => 2014
+    [test] => test
+    [comments] => comment
 )

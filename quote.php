@@ -9,13 +9,16 @@ if(!$_POST) exit;
 function tommus_email_validate($email) { return filter_var($email, FILTER_VALIDATE_EMAIL) && preg_match('/@.+\./', $email); }
 
 
-$name = $_POST['name']; $email = $_POST['email']; $comments = $_POST['comments']; 
+$name = $_POST['name']; 
+$email = $_POST['email']; 
+$phone = $_POST['phone']; 
 $origincity = $_POST['origincity'];
 $originstate = $_POST['originstate'];
 $originzip = $_POST['originzip'];
 $vehiclemake = $_POST['vehiclemake'];
 $vehiclemodel = $_POST['vehiclemodel'];
 $vehicleyear = $_POST['vehicleyear'];
+$comments = $_POST['comments']; 
 
 $file = 'log.txt';
 file_put_contents($file, print_r($_POST,true));
@@ -49,16 +52,26 @@ if(trim($name) == '') {
 
 
 
-// $address = 'hello@email.com';
 $address = 'xerik25@gmail.com';
 
 
 
-$e_subject = 'You\'ve been contacted by ' . $name . '.';
+$e_subject = 'FastQuote You\'ve been contacted by ' . $name . '.';
 
 $e_body = "You have been contacted by $name from your contact form, their additional message is as follows." . "\r\n" . "\r\n";
 
-$e_content = "\"$comments\"" . "\r\n" . "\r\n" . "\"$origincity\"";
+//$e_content = "\"$comments\"" . "\r\n" . "\r\n" . "\"$origincity\"";
+$e_content = 
+  "Name:" . "\"$name\"" . "\r\n" .  
+  "Phone:" . "\"$phone\"" . "\r\n" .  
+  "Email:" . "\"$email\"" . "\r\n" .  
+  "City:" . "\"$origincity\"" . "\r\n" .  
+  "State:" . "\"$originstate\"" . "\r\n" . 
+  "Zip:" . "\"$originzip\"" . "\r\n" . 
+  "Make:" . "\"$vehiclemake\"" . "\r\n" . 
+  "Model:" . "\"$vehiclemodel\"" . "\r\n" . 
+  "Year:" . "\"$vehicleyear\"" . "\r\n" . 
+  "\"$comments\"" . "\r\n" . "\r\n";
 
 $e_reply = "You can contact $name via email, $email";
 
