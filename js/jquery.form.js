@@ -16,6 +16,7 @@ name: $('#name').val(),
 email: $('#email').val(),
 phone: $('#phone').val(),
 comments: $('#comments').val()
+origincity: $('#origincity').val()
 },
 function(data){
 document.getElementById('message').innerHTML = data;
