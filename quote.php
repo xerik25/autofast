@@ -15,9 +15,16 @@ $phone = $_POST['phone'];
 $origincity = $_POST['origincity'];
 $originstate = $_POST['originstate'];
 $originzip = $_POST['originzip'];
+$destcity = $_POST['destcity'];
+$deststate = $_POST['deststate'];
+$destzip = $_POST['destzip'];
+$vehicletype = $_POST['vehicletype'];
 $vehiclemake = $_POST['vehiclemake'];
 $vehiclemodel = $_POST['vehiclemodel'];
 $vehicleyear = $_POST['vehicleyear'];
+$pickup = $_POST['pickup'];
+$dropoff = $_POST['dropoff'];
+$operational = $_POST['operational'];
 $comments = $_POST['comments']; 
 
 $file = 'log.txt';
@@ -65,12 +72,19 @@ $e_content =
   "Name:" . "\"$name\"" . "\r\n" .  
   "Phone:" . "\"$phone\"" . "\r\n" .  
   "Email:" . "\"$email\"" . "\r\n" .  
-  "City:" . "\"$origincity\"" . "\r\n" .  
-  "State:" . "\"$originstate\"" . "\r\n" . 
-  "Zip:" . "\"$originzip\"" . "\r\n" . 
+  "Origin City:" . "\"$origincity\"" . "\r\n" .  
+  "Origin State:" . "\"$originstate\"" . "\r\n" . 
+  "Origin Zip:" . "\"$originzip\"" . "\r\n" . 
+  "Destination City:" . "\"$origincity\"" . "\r\n" .  
+  "Destination State:" . "\"$originstate\"" . "\r\n" . 
+  "Destination Zip:" . "\"$originzip\"" . "\r\n" . 
+  "Vehicle Type:" . "\"$vehicletype\"" . "\r\n" . 
   "Make:" . "\"$vehiclemake\"" . "\r\n" . 
   "Model:" . "\"$vehiclemodel\"" . "\r\n" . 
   "Year:" . "\"$vehicleyear\"" . "\r\n" . 
+  "Pickup Location:" . "\"$pickup\"" . "\r\n" . 
+  "Dropoff Location:" . "\"$dropoff\"" . "\r\n" . 
+  "Operational:" . "\"$operational\"" . "\r\n" . 
   "\"$comments\"" . "\r\n" . "\r\n";
 
 $e_reply = "You can contact $name via email, $email";
