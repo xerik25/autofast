@@ -80,8 +80,8 @@ input.submit { background:url(../images/bg-submit@2x.png) center center no-repea
 #open-menu p {margin-top:26px; }
 .col1-1.borders, .col2-3.borders {width:298px; height:auto }
 .col2-3 { width:300px; height:auto; }
-.col2-3 p, .col2-3.single-post p { padding:21px 30px; position:relative; font-size:22px;}
-h2, .col2-3.single-post h2 { font-size:38px; padding:38px 30px 18px 30px; line-height:49px; }
+.col2-3 p, .col2-3.single-post p { padding:21px 30px; position:relative; font-size:20px;}
+h2, .col2-3.single-post h2 { font-size:25px; padding:38px 30px 18px 30px; line-height:49px; }
 .single-post p.blockquote {padding:0px 30px !important; }
 .responsive {display:block; float:none; }
 .single-post .posted {padding:15px 31px; }
@@ -92,4 +92,5 @@ h2, .col2-3.single-post h2 { font-size:38px; padding:38px 30px 18px 30px; line-h
 body {background-size:700px 365px; }
 #map {width:280px; height:280px; margin:0; border:0}
 .col2-3.double { width:298px; height:298px; }
+#email_address {font-size: 9px;}
 }

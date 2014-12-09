@@ -66,7 +66,7 @@ h3.blockquote { font-family:Georgia, "Times New Roman", Times, serif; font-style
 --------------------------------------------------------------------------------------------------------*/
 #open-menu {width:298px; height:69px; background:#fff; border:1px solid #ddd; margin-bottom:6px; cursor:pointer; }
 #open-menu p {margin-top:25px; font-size:12px; position:relative }
-#open-menu p span { text-transform:uppercase; letter-spacing:2px; font-family:'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color:#595755}
+#open-menu p span { text-transform:uppercase; letter-spacing:2px; font-family:'sofachrome', 'Helvetica Neue', Arial, Helvetica, sans-serif; color:#595755}
 #open-menu .arrow {content:''; height:0; width:0; border-width:6px 6px 6px 6px; border-style:solid; border-color:rgba(191,191,191,1) rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0); position:absolute; top:32px; left:259px;}
 .container { padding:0px; width:960px; position:relative; margin:0 auto;}
 #container { margin-bottom:100px; margin-top:70px}
@@ -212,7 +212,7 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 #options {  text-align:left; margin-top:0px; }
 #options ul { margin: 0; list-style: none; display:inline-block; bottom:22px; position:absolute; }
 #options li { float: none;  }
-#options li a { color:#a5a5a5; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:18px; font-weight:normal; letter-spacing:0px; text-decoration:none; /*text-transform:uppercase;*/ display:inline-block; padding:3px 30px;  margin:0px; }
+#options li a { color:#a5a5a5; font-family: 'sofachrome', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size:18px; font-weight:normal; letter-spacing:0px; text-decoration:none; /*text-transform:uppercase;*/ display:inline-block; padding:3px 30px;  margin:0px; }
 #options li a:hover, #options li a.selected { color:#595755;}
 
 ul#nav-lang {position:absolute; bottom:22px; right:0px; text-align:right; }
