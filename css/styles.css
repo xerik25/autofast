@@ -243,8 +243,8 @@ ul#nav-lang li a:hover, ul#nav-lang li a.selected { color:#595755;}
 --------------------------------------------------------------------------------------------------------*/
 @font-face {
     font-family: sofachrome;
-    src: url(../font/sofachrome.eot);
-    src: url(../font/sofachrome_rg.ttf?#iefix) format('truetype');
+    src: url(../font/sofachrome.eot?#iefix) format('embedded-opentype'),
+         url(../font/sofachrome_rg.ttf) format('truetype');
 }
 .chrome_bg {
 	background:url(../images/diamond_plate.png);
@@ -255,12 +255,5 @@ ul#nav-lang li a:hover, ul#nav-lang li a.selected { color:#595755;}
 .txtshadow {
 	text-shadow: 2px 2px black;
 }
-/*@font-face {
-    font-family: 'sofachrome';
-    src: url('myfont-webfont.eot?#iefix') format('embedded-opentype'), 
-         url('myfont-webfont.woff') format('woff'), 
-         url('myfont-webfont.ttf')  format('truetype'),
-         url('myfont-webfont.svg#svgFontName') format('svg');
-    }*/
 /* End Backtotop
 --------------------------------------------------------------------------------------------------------*/
