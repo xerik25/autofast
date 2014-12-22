@@ -243,6 +243,7 @@ ul#nav-lang li a:hover, ul#nav-lang li a.selected { color:#595755;}
 --------------------------------------------------------------------------------------------------------*/
 @font-face {
     font-family: sofachrome;
+    src: url(../font/sofachrome.eot);
     src: url(../font/sofachrome_rg.ttf?#iefix) format('truetype');
 }
 .chrome_bg {
