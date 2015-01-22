@@ -59,7 +59,8 @@ if(trim($name) == '') {
 
 
 
-$address = 'xerik25@gmail.com';
+$address = 'autofasttransport@yahoo.com';
+// $address = 'xerik25@gmail.com';
 
 
 
@@ -95,7 +96,8 @@ $msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
 
 
 
-$headers = "From: $email" . "\r\n";
+// $headers = "From: $email" . "\r\n";
+$headers = "From: website@autofasttransport.com" . "\r\n";
 
 $headers .= "Reply-To: $email" . "\r\n";
 
